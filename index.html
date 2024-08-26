@@ -304,7 +304,7 @@
                                 <h4 class="font-inter text-base font-semibold">Discount(20%)</h4>
                                 <h4 id="couple-discount-amount" class="font-inter text-base font-semibold">00</h4>
                             </div>
-                            <div class="join mt-3">
+                            <div class="join mt-4">
                                 <input class="input input-bordered join-item" type="text"
                                     placeholder="Have any coupon?" />
                                 <button class="btn join-item rounded-r-full bg-slate-300" id="apply-btn"
@@ -330,12 +330,29 @@
                                     class="py-2 pl-3 w-11/12 border-2 rounded-md mt-2 font-normal"
                                     placeholder="Enter your email">
                             </p>
-                            <button
-                                class="btn text-white bg-[#1DD100] rounded-2xl px-36 mt-5 ml-1 hover:bg-[#1DD100]">Next</button>
                         </form>
+                        <button class="btn text-white bg-[#1DD100] rounded-2xl px-36 mt-5 ml-1 hover:bg-[#1DD100]"
+                            onclick="my_modal_1.showModal()">Next</button>
+                        <dialog id="my_modal_1" class="modal">
+                            <div class="modal-box flex flex-col justify-center items-center">
+                                <i class="fa-solid fa-thumbs-up text-8xl text-[#1DD100]"></i>
+                                <h3 class="text-2xl font-semibold mt-3 text-[#27AE60]">Success</h3>
+                                <p class="text-sm mt-4 font-semibold">Thank you for booking our bus seats</p>
+                                <p class="text-sm font-semibold">We are working hard to find the best service and deals
+                                    for you</p>
+                                <p class="text-sm font-light mt-2">Shortly you will find a confirmation in your email
+                                </p>
+                                <div class="modal-action mt-4">
+                                    <form method="dialog">
+                                        <button
+                                            class="btn bg-[#27AE60] rounded-3xl px-24 text-white hover:text-black">Close</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </dialog>
                         <div class="flex justify-between items-center mt-3">
-                            <a href="" class="text-nowrap text-[#3071299] underline">Terms and Conditions</a>
-                            <a href="" class="text-nowrap ml-8 text-[#3071299] underline">cancellation Policy</a>
+                            <a href="" class="text-nowrap text-blue-600 underline">Terms and Conditions</a>
+                            <a href="" class="text-nowrap ml-8 text-blue-600 underline">cancellation Policy</a>
                         </div>
                     </div>
                 </div>
