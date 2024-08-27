@@ -226,62 +226,62 @@
                         <div class="flex justify-between items-center mt-2">
                             <div class="grid grid-cols-3 gap-3">
                                 <button>A</button>
-                                <button class="btn">A1</button>
-                                <button class="btn">A2</button>
+                                <button class="btn seat-btn">A1</button>
+                                <button class="btn seat-btn">A2</button>
                                 <button>B</button>
-                                <button class="btn">B1</button>
-                                <button class="btn">B2</button>
+                                <button class="btn seat-btn">B1</button>
+                                <button class="btn seat-btn">B2</button>
                                 <button>C</button>
-                                <button class="btn">C1</button>
-                                <button class="btn">C2</button>
+                                <button class="btn seat-btn">C1</button>
+                                <button class="btn seat-btn">C2</button>
                                 <button>D</button>
-                                <button class="btn">D1</button>
-                                <button class="btn">D2</button>
+                                <button class="btn seat-btn">D1</button>
+                                <button class="btn seat-btn">D2</button>
                                 <button>E</button>
-                                <button class="btn">E1</button>
-                                <button class="btn">E2</button>
+                                <button class="btn seat-btn">E1</button>
+                                <button class="btn seat-btn">E2</button>
                                 <button>F</button>
-                                <button class="btn">F1</button>
-                                <button class="btn">F2</button>
+                                <button class="btn seat-btn">F1</button>
+                                <button class="btn seat-btn">F2</button>
                                 <button>G</button>
-                                <button class="btn">G1</button>
-                                <button class="btn">G2</button>
+                                <button class="btn seat-btn">G1</button>
+                                <button class="btn seat-btn">G2</button>
                                 <button>H</button>
-                                <button class="btn">H1</button>
-                                <button class="btn">H2</button>
+                                <button class="btn seat-btn">H1</button>
+                                <button class="btn seat-btn">H2</button>
                                 <button>I</button>
-                                <button class="btn">I1</button>
-                                <button class="btn">I2</button>
+                                <button class="btn seat-btn">I1</button>
+                                <button class="btn seat-btn">I2</button>
                                 <button>J</button>
-                                <button class="btn">J1</button>
-                                <button class="btn">J2</button>
+                                <button class="btn seat-btn">J1</button>
+                                <button class="btn seat-btn">J2</button>
                             </div>
                             <div class="grid grid-cols-2 gap-3 pl-5">
-                                <button class="btn">A3</button>
-                                <button class="btn">A4</button>
-                                <button class="btn">B3</button>
-                                <button class="btn">B4</button>
-                                <button class="btn">C3</button>
-                                <button class="btn">C4</button>
-                                <button class="btn">D3</button>
-                                <button class="btn">D4</button>
-                                <button class="btn">E3</button>
-                                <button class="btn">E4</button>
-                                <button class="btn">F3</button>
-                                <button class="btn">F4</button>
-                                <button class="btn">G3</button>
-                                <button class="btn">G4</button>
-                                <button class="btn">H3</button>
-                                <button class="btn">H4</button>
-                                <button class="btn">I3</button>
-                                <button class="btn">I4</button>
-                                <button class="btn">J3</button>
-                                <button class="btn">J4</button>
+                                <button class="btn seat-btn">A3</button>
+                                <button class="btn seat-btn">A4</button>
+                                <button class="btn seat-btn">B3</button>
+                                <button class="btn seat-btn">B4</button>
+                                <button class="btn seat-btn">C3</button>
+                                <button class="btn seat-btn">C4</button>
+                                <button class="btn seat-btn">D3</button>
+                                <button class="btn seat-btn">D4</button>
+                                <button class="btn seat-btn">E3</button>
+                                <button class="btn seat-btn">E4</button>
+                                <button class="btn seat-btn">F3</button>
+                                <button class="btn seat-btn">F4</button>
+                                <button class="btn seat-btn">G3</button>
+                                <button class="btn seat-btn">G4</button>
+                                <button class="btn seat-btn">H3</button>
+                                <button class="btn seat-btn">H4</button>
+                                <button class="btn seat-btn">I3</button>
+                                <button class="btn seat-btn">I4</button>
+                                <button class="btn seat-btn">J3</button>
+                                <button class="btn seat-btn">J4</button>
                             </div>
                         </div>
                     </div>
                     <div class="divider lg:divider-horizontal"></div>
-                    <div class="-mt-24 w-full px-7">
+                    <div class="w-full px-7">
                         <h2 class="text-nowrap font-railway text-2xl font-semibold">Seat Details</h2>
                         <div class="divider"></div>
                         <div class="bg-[#F7F8F8] px-6 py-4 rounded-xl">
@@ -293,7 +293,7 @@
                                 <p class="font-inter text-base font-semibold">Price</p>
                             </div>
                             <div class="divider"></div>
-                            <ul id="selected-seat" class="leading-5 ml-9">
+                            <ul id="selected-seat" class="leading-6 ml-9 font-medium">
                             </ul>
                             <div class="divider"></div>
                             <div class="flex justify-between items-center -mt-5">
@@ -301,18 +301,17 @@
                                 <h4 class="font-inter text-base font-semibold">BDT <span id="total-price">00</span></h4>
                             </div>
                             <div class="flex justify-between items-center mt-1 hidden" id="single-discount-section">
-                                <h4 class="font-inter text-base font-semibold">Discount(15%)</h4>
-                                <h4 id="single-discount-amount" class="font-inter text-base font-semibold">00</h4>
+                                <p class="font-inter text-base font-semibold">Discount(15%)</p>
+                                <p id="single-discount-amount" class="font-inter text-base font-semibold">00</p>
                             </div>
                             <div class="flex justify-between items-center mt-1 hidden" id="couple-discount-section">
-                                <h4 class="font-inter text-base font-semibold">Discount(20%)</h4>
-                                <h4 id="couple-discount-amount" class="font-inter text-base font-semibold">00</h4>
+                                <p class="font-inter text-base font-semibold">Discount(20%)</p>
+                                <p id="couple-discount-amount" class="font-inter text-base font-semibold">00</p>
                             </div>
                             <div class="join mt-4">
-                                <input class="input input-bordered join-item" type="text"
+                                <input class="input input-bordered join-item font-medium" type="text" id="coupon-field"
                                     placeholder="Have any coupon?" />
-                                <button class="btn join-item rounded-r-full bg-slate-300" id="apply-btn"
-                                    disabled>Apply</button>
+                                <button class="btn join-item rounded-r-full" id="apply-btn" disabled>Apply</button>
                             </div>
                             <div class="flex justify-between items-center mt-3">
                                 <h4 class="font-inter text-base font-semibold">Grand Total</h4>
@@ -386,6 +385,8 @@
             </div>
         </footer>
     </main>
+    <script src="js/utilities.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
